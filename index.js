@@ -56,7 +56,7 @@ io.on("connection", (socket) => {
 /********** -- Definir los eventos de socket io ******/
 
    socket.on('abriro proyecto', (proyecto) => {
-       socket.join(proyecto)
+       socket.join(proyecto);
    })
    /***** Nueva Tarea */
    socket.on('nueva tarea', (tarea) => {
