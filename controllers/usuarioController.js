@@ -1,5 +1,5 @@
 import Usuario from "../models/Usuario.js"
-import generarId from "../helpers/generarid.js"
+import generarId from "../helpers/generarId.js"
 import generarJWT from "../helpers/generarJWT.js"
 import {emailRegistro, emailOlvidePassword} from '../helpers/email.js '
 
