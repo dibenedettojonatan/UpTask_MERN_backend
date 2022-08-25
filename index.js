@@ -34,10 +34,10 @@ app.use("/api/usuarios", usuarioRoutes);
 app.use("/api/proyectos", proyectoRoutes);
 app.use("/api/tareas", tareaRoutes);
 
-const port = process.env.PORT || 4000;
+const PORT = process.env.PORT || 4000;
 
-const servidor = app.listen(port, () =>{
-    console.log(`Servidor Corriendo en el puerto ${port}`)
+const servidor = app.listen(PORT, () =>{
+    console.log(`Servidor Corriendo en el puerto ${PORT}`)
 })
 //************ ---- Socket io ---- ***************/
 
